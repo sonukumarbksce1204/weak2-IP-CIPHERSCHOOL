@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Harshit vashistha">
+    <meta name="description" content="This is metatag tutorial">
+    <meta name="keywords" content="lesson, tutorial,html tutorial">
+
+    <title>metatags lesson</title>
+</head>
+<body>
+    
+</body>
+</html>
+____________
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tutorial</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <h2>hello</h2>
+    <h3>hello</h3>
+    <h4>hello</h4>
+    <h5>hello</h5>
+    <h6>hello</h6>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita impedit fugit quo illum sequi, soluta similique, nobis suscipit omnis provident quos fuga facere. Libero vitae reiciendis odit excepturi enim accusantium, ex alias impedit at similique itaque deleniti hic culpa exercitationem officia nulla obcaecati odio quam. Similique possimus laborum quibusdam dolores.</p>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum deleniti nobis voluptatem repudiandae blanditiis ullam saepe aut deserunt sit quos!</p>
+    <a href="https://google.co.in" target="_blank">Google Link</a>
+    <img src="logo.png" alt="logo">
+</body>
+<table>
+    <thead>
+        <th>First name</th>
+        <th>last name</th>
+    </thead>
+    <tbody>
+        <tr>Harshit</tr>
+        <tr>sharma</tr>
+    </tbody>
+
+</table>
+<h2>Html Forms</h2>
+<label for="username">Username</label>
+<input type="text" name="" id="username" placeholder="username">
+<input type="password" name="" id="" placeholder="password">
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different ways to apply css </title>
+    <style>
+        h1{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: green; background-color: aliceblue;">Heading  </h1>
+    <h1>Heading</h1>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://googleapsis.com">
+    <title>font</title>
+</head>
+<body>
+    <h1>main heading</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem minima adipisci repudiandae culpa cupiditate dolores distinctio dolorum sit, est beatae rerum voluptatem minus sapiente, nam voluptatum reprehenderit ullam quaerat! Dolorem dignissimos quos, quidem veniam quas quia magnam reiciendis quibusdam, nihil asperiores vero magni consequuntur accusantium et ratione? Amet repellat odio aspernatur temporibus rem officia, fuga nostrum quae unde dolorum magni sapiente quibusdam ipsam ut! Et, iste explicabo, facilis ad a voluptas maxime illum suscipit hic ex inventore repellat? Adipisci a natus tenetur modi aperiam quibusdam culpa, dicta quas! Explicabo adipisci rem fugit temporibus aliquam officia odio accusamus ipsam expedita fugiat?
+    </p>
+</body>
+</html>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+h1{
+    color: green;   
+}
+
+.h1class{
+    color:red;
+}
+
+#h1id{
+    cololr:blue !important;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+</head>
+<body>
+    <h1 class="h1class" id="h1lid" style="color:brown"></h1>
+</body>
+</html>
+
+.heading{
+    color: magenta;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"><u></u></div>
+</body>
+</html>
+
+div#container ul.mysongs li{
+    color:brown;
+    background: yellow;
+}
+
+<div class="favourite"></div>
+
+div#container ul.my-songs li.favourite{
+    color: yellow;
+    background: brown;
+}
+
+h2{
+    border: 4px solid red;
+}
+div{
+    border:8px solid green;
+}
+
+h2{
+    border: 4px solid red;
+    border-width: 4px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+}
+
+p{
+    border: 4px solid green;
+}
+span{
+    border: 2px solid black;
+}
+
+h1{
+    border:4px solid brown;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding: 20px 30px 40px 50px;
+    margin-left: 30px;
+    margin: 10px 20px 30px 40px
+    width: 500px;
+    margin: 100px;
+    text-align:center;
+    backgroun:light blue;
+     
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylsheet' href='style.css'
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>My Website</h1>
+        <section class="about-me">
+            <h3>Something about me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sequi quisquam veritatis deserunt, expedita culpa. Vitae veritatis blanditiis dolorum asperiores!</p>
+        </section>
+        <section>
+            <h2>Something about lilly</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur molestiae explicabo aliquam commodi tempore placeat voluptate hic minima rerum!</p>
+        </section>
+    </div>
+</body>
+</html>
+
+
+
+
+
+@import url('https://fonts.googleleapis.com/css2?family=Poppins:wght@300,400,500&display=');
+body{
+    font-family: "Poppins",sans-serif;
+}
+.container{
+    width: 1400px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+h1{
+    background: #cdcdcd;
+    text-align: center;
+    padding: 15px 0px;
+}
+section.about-me,section.about-lilly{
+    border: 2px solid #666;
+    padding: 10px;
+}
+
+.about-me{
+    margin-bottom: 40px;
+}
+section h3{
+    text-transform: uppercase;
+    color: #4444
+}
+
+
+#20
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylsheet' href='style.css'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>My Website</h1>
+        <section class="box1">
+            <h3>Something about me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sequi quisquam veritatis deserunt, expedita culpa. Vitae veritatis blanditiis dolorum asperiores!</p>
+        </section>
+    </div>
+    <div class="box2">
+        <section>
+            <h2>Something about lilly</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur molestiae explicabo aliquam commodi tempore placeat voluptate hic minima rerum!</p>
+        </section>
+    </div>
+
+</body>
+</html>
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1,.box2{
+    border: 2px solid #444;
+    padding: 10px;
+}
+.box2{
+    margin-top: 90px;
+}
+
+
+#21
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylsheet' href='style.css'
+    <title>BLOCK LEVEL VS INLINE ELEMENTS</title>
+</head>
+<body>
+    <!--
+        1.)Block level elements
+        2.)inline elements
+        3.)inline block elements
+    -->
+    <!-- BLOCK VS INLINE ELEMENTS-->
+    <!----------------------------->
+    <!--Example of Block level elements-->
+    <!--heading(1-6),p,div,ul,li,form,article,aside,main,nev-->
+    <!-----------------------------> 
+    <!----------------------------->
+    <!--Examples of Inline elements-->
+    <!---span,img,a,textarea-->
+    <!----------------------------->
+    <!-----Block level element------->
+    <h1>This is heading</h1>
+    <h2>One more heading</h2>
+
+    <!---------Inline elements---------->
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+</body>
+</html>
+
+
+body{
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    color: #444;
+    display: inline;
+}
+h1,h2{
+    border: 2px solid #222;
+    width: 500px;
+}
+h1{
+    margin: 100px;
+    padding:100px;
+}
+a{
+    border: 2px solid #222;
+    width: 100px;
+    height: 100px;
+    margin:100px;
+    padding:50px;
+    display: block;
+    margin: 50px 10px;
+}
+
+
+#22
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylsheet' href='style.css'>
+    <title>Document</title>
+</head>
+<body>
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+</body>
+</html>
+
+
+img{
+    width: 300px;
+    border: 4px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#23
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylsheet' href='style.css'>
+    <title>Document</title>
+</head>
+<body>
+    <a href="#">My Website</a>
+    <a href="#">My Website</a>
+</body>
+</html>
+
+
+
+/* a{
+    border: 2px solid black;
+    margin: 50px;
+    padding: 50px;
+    height: 100px;
+    width: 100px;
+} */
+a{
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    width: 60px;
+    height: 100px;
+}
+
+
+#24
+question
+
+#25
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylsheet' href='style.css'>
+    <title>Document</title>
+</head>
+<body>
+    <nev>
+        <un>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contack Us</a></li>
+        </un>
+        <section id="home">
+            <h2>welcome to this lovely website</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate suscipit deleniti voluptas, corporis tenetur soluta ratione modi praesentium, repudiandae excepturi id distinctio dolorem accusamus aliquid maiores consectetur provident libero quibusdam molestias ipsum nostrum! Similique magni rerum alias, fugit possimus at reiciendis, eligendi quod facilis impedit, enim sit. Expedita nobis tenetur velit quas perferendis! Totam ad rerum aspernatur tempora soluta perferendis reprehenderit sit! Consequuntur nesciunt assumenda facere iusto, veritatis, aliquam fugiat tenetur reprehenderit incidunt praesentium laborum cupiditate consectetur earum quia. Sunt itaque et fuga aspernatur, modi quod dolor nemo vel doloribus dolores debitis nulla consequatur deleniti aliquam quia ipsum quasi cum, quos odit! Eveniet nesciunt, magnam aliquam nulla culpa recusandae nostrum aut quos reiciendis amet optio perspiciatis molestias vel dolor modi neque laudantium. Ratione pariatur aliquam eveniet eos voluptatum enim laboriosam obcaecati aut, in officia, voluptates vero. Fugit beatae nam quia molestiae dolor velit debitis consectetur blanditiis saepe eos totam earum voluptatum ad atque officia quod recusandae iure, exercitationem ut perspiciatis placeat sunt libero. Dolorum corrupti adipisci asperiores dicta ratione? Impedit perspiciatis molestias nam provident eveniet recusandae. Recusandae, illum sequi repellendus eligendi veritatis id, facere beatae atque pariatur sit dolorum dicta nemo culpa a laudantium! Illum eligendi adipisci aspernatur quam.</p>
+        </section>
+    </nev>
+</body>
+</html>
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    font-family: 'Poppins',sans-serif;
+    color: #444;
+    padding: 0px, 40px;
+}
+nav{
+    /* border: 2px solid red; */
+    background-color: #cecece;
+}
+h1,h2,h3{
+    color:#222;
+
+}
+h2{
+    color: #222;
+}
+nev ul{
+    /* border: 2px solid green; */
+    padding-left: 0px;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    border: 2px solid black;
+    margin: 15px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+#26
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylsheet' href='style.css'>
+    <title>Document</title>
+</head>
+<body>
+   <hr>
+
+   <div class="box2">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consectetur distinctio, eligendi facilis culpa laboriosam sapiente hic ab sit dolor et modi beatae magni corrupti doloremque incidunt assumenda harum sunt natus aliquam eaque. Eaque hic quae molestiae quia, animi rerum perspiciatis, tempore consequatur exercitationem dolorum, in esse similique fugit nostrum!</p>
+
+   </div>
+
+   <div class="box1">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consectetur distinctio, eligendi facilis culpa laboriosam sapiente hic ab sit dolor et modi beatae magni corrupti doloremque incidunt assumenda harum sunt natus aliquam eaque. Eaque hic quae molestiae quia, animi rerum perspiciatis, tempore consequatur exercitationem dolorum, in esse similique fugit nostrum!</p>
+
+   </div>
+</body>
+</html>
+
+
+
+hr{
+    width: 500px;
+    margin-left: 0px;
+    border: 0.5px dashed black;
+}
+.box2{
+    box-sizing: border-box;
+    width: 500px;
+    background-color: lightcoral;
+    border: 10px solid red;
+    padding: 50px;
+    margin-bottom: 10px;
+
+}
+
+.box1{
+    width: 500px;
+    background-color: lightcoral;
+    border: 10px solid red;
+    padding: 50px;
+
+}
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector</title>
+</head>
+<body>
+    <div id="main-heading">
+        <h1>Main Heading</h1>
+    </div>
+
+    <div class="main-section">
+        <h2>Sub Heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, amet!</p>
+
+    </div>
+</body>
+</html>!
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div{
+    background-color: #cdcdcd;
+}
+
+.main-section{
+    background-color: #efefef;
+}
+p{
+    color: aliceblue;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector</title>
+</head>
+<body>
+    <h1 id=""heading>Main Heading</h1>
+    <p class="blog-content text green bg-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod aperiam, rem necessitatibus nemo debitis distinctio, aspernatur maxime perspiciatis quisquam numquam harum placeat amet dolore! Eius quis quisquam sapiente id similique doloremque deserunt laborum, debitis omnis velit cupiditate ratione minus facere! Unde odit, sunt sint nisi at iusto amet laboriosam tenetur autem itaque voluptatem eos quae laborum atque, inventore impedit quia ipsum? Necessitatibus, iusto molestias! Atque deserunt consequuntur voluptatum, architecto natus omnis quas recusandae et eos quibusdam optio porro. Dolor id enim rerum sunt deleniti odio perferendis dolore nostrum consequuntur, dolorem doloribus maxime ut quo quibusdam asperiores, repudiandae reprehenderit corporis. Facilis.</p>    
+    <h2 class="text-red">Heading Two</h2>
+    <p class="blog-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil ipsa, ratione fugiat voluptate, autem laudantium quos ullam optio aut itaque, deserunt mollitia iusto ducimus. Dolore magni laboriosam ex, voluptas nobis quidem ea dolorum mollitia rem, et saepe in veniam suscipit libero odio omnis quae quas eligendi velit laborum molestiae! Cum voluptatibus explicabo facere saepe voluptatem sapiente, odit, repudiandae incidunt magnam quia quas? Explicabo quas vero a totam fugiat rerum tenetur culpa facere unde facilis! Praesentium consequatur ullam voluptate ratione dolor esse. At harum ducimus nihil nisi, vero incidunt natus quam sint nesciunt omnis enim, soluta veritatis. Quas, laborum corporis! Fuga.</p>
+</body>
+</html>
+!body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.text-green{
+    color: rgb(167, 53, 0);
+}
+.text-green{
+    color: rgb(0,133,33);
+}
+.bg-dark{
+    background: #555;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+    <header>
+        <h1 class="secondary">Main heading</h1>
+        <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ul>
+    </header>
+<main>
+
+    <article>
+        <h3 class="secondary">My First Blog</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci itaque ea quasi illum sit porro ad accusantium voluptates voluptatum nobis neque quia iure, debitis vero? Fugit earum eaque iusto exercitationem facilis temporibus in odio voluptatem cupiditate, neque nobis mollitia porro labore aperiam veniam error molestias quam voluptatum dolorem vel odit ab saepe non. Suscipit placeat porro magnam velit hic harum consequuntur qui quasi perspiciatis officia sit obcaecati, natus rem nemo facilis quidem vitae repellat eos quis! Nihil deleniti ex voluptate minima quibusdam libero corrupti. Odio, repellendus beatae! Similique eos corporis fuga, quisquam, nemo aspernatur temporibus modi cumque neque dolores inventore?</p>
+    </article>
+
+    <article>
+        <h3 class="secondary">My Second Blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit provident magnam, aut hic consectetur nisi ipsum quia itaque, quis ipsa dolores dolor veritatis consequatur rerum incidunt fugiat repudiandae vero aliquam obcaecati accusantium. Hic adipisci officiis beatae nobis consequatur reprehenderit corrupti tenetur dignissimos cumque deserunt? Dolore esse nam rem adipisci labore! Qui, vero voluptas! Dolor quia minus dolorum maxime, iusto magni provident voluptatum, quas tempora velit, omnis nam reiciendis voluptatibus ipsam. Quia totam maiores placeat veritatis quis laborum modi suscipit in quo adipisci provident perspiciatis ipsam necessitatibus, dicta accusantium? Autem eos ducimus itaque natus saepe nobis voluptas minus ratione dicta laboriosam!</p>
+    </article>
+</main>
+</body>
+    
+</html>
+
+@import url('https;//fonts.googleapis.com');
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    background-color: #d0d6d5;
+}
+main{
+    background-color: #e0e0e0;
+}
+.secondary{
+    color: #00705c;
+}
+span{
+    background-color: #7dffe8;
+}<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+</head>
+<body>
+    <header>
+        <p>short paragraph inside header</p>
+        <h1 class="main-logo">main logo</h1>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+        <p>short paragraph inside header</p>
+    </header>
+    <main>
+        <h2>Main content of our webpage</h2>
+
+        <section class=my-article>
+            <h2>Articles section</h2>
+            <article>
+                <h2>Article Heading</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi est, aliquam numquam ducimus atque, saepe cumque ipsam error doloribus quis veritatis qui hic. Iste id explicabo dicta quidem voluptas. Molestias.</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html
+
+/* {
+    color:blue;
+} */
+
+header{
+    background-color: #f0ebeb;
+}
+section.my-articles{
+    background-color: #f2e9e9;
+}
+header p{
+    color: red;
+}
+li a{
+    color: red;
+}
+/* section.my-articles h2{
+    color: green;
+} */
+section.my-articles > h2{
+    color: green;
+}
+h2+p{
+    color:orangered;
+}
+ul+p{
+    color:green;
+}
